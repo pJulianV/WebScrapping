@@ -5,6 +5,8 @@ from urllib.parse import urljoin
 
 url_asamblea='https://www.asambleanacional.gob.ec/es/contenido/transparencia-asamblea'
 
+url_ficha = 'https://www.alianza.com.co/fichas-tecnicas?curFolderId=492256'
+
 def status_code_url(url):
     r=requests.get(url)
     if r.status_code==200:
